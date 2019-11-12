@@ -20,9 +20,39 @@ button {
 
 
 /* Task 1 */
+a:link {
+  color: #09b2c9;
+}
+
+a:visited {
+  color: #0b399b;
+}
+
+a:hover {
+  color: #4a9108;
+}
+
+a:active {
+  color: #fc49d5;
+}
+
 
 /* Task 2 */
+button:hover {
+  background-color: #09b976;
+}
+
+button:active {
+  background-color: #cf4cf0;
+}
+
 
 /* Task 3 */
+p::first-letter {
+  color: #fc049d;
+}
 
 /* Task 4 */
+h2+p::first-line {
+  color: #6e07f5;
+}
